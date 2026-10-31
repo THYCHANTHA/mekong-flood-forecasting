@@ -1,0 +1,87 @@
+{
+  "target": "GloFAS v4 consolidated discharge (SIMULATED), Kratie main-stem cell",
+  "splits": {
+    "train": [
+      "1997-01-01",
+      "2012-12-31"
+    ],
+    "validation": [
+      "2013-01-01",
+      "2017-12-31"
+    ],
+    "test": [
+      "2018-01-01",
+      "2025-05-31"
+    ]
+  },
+  "horizons_days": [
+    1,
+    3,
+    7,
+    14
+  ],
+  "arima_validation_mean_MAE": {
+    "(1, 0, 0)": 2174.8723623979017,
+    "(2, 0, 0)": 2070.6978342327398,
+    "(2, 0, 1)": 1956.8262985562867
+  },
+  "arima_selected_order": [
+    2,
+    0,
+    1
+  ],
+  "gbm_validation": [
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "max_iter": 300,
+        "min_samples_leaf": 40
+      },
+      "val_mean_MAE": 1994.4355378391992
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 31,
+        "max_iter": 300,
+        "min_samples_leaf": 40
+      },
+      "val_mean_MAE": 2031.5683375365254
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 15,
+        "max_iter": 300,
+        "min_samples_leaf": 40
+      },
+      "val_mean_MAE": 2041.9362366871685
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "max_iter": 300,
+        "min_samples_leaf": 40
+      },
+      "val_mean_MAE": 2101.825623651889
+    }
+  ],
+  "gbm_selected": {
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 15,
+    "max_iter": 300,
+    "min_samples_leaf": 40
+  },
+  "test_origins": 2708,
+  "runtime_s": 16.9,
+  "versions": {
+    "python": "3.12.5",
+    "pandas": "2.3.3",
+    "numpy": "2.4.3",
+    "scikit-learn": "1.7.2",
+    "statsmodels": "0.15.0"
+  },
+  "interpretation": "Scores are agreement with a simulated series (model-to-model), not verification against river gauges."
+}

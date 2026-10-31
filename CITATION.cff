@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Mekong discharge forecasting: a research prototype on simulated GloFAS discharge"
+type: software
+authors:
+  - family-names: Chantha
+    given-names: Thy
+repository-code: "https://github.com/THYCHANTHA/mekong-flood-forecasting"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-31
+abstract: >-
+  Forecasting of model-simulated (GloFAS v4) Mekong discharge with an adapter architecture
+  that allows authorised MRC gauge observations to be added later. Research prototype; not a
+  flood warning system and no claim of real-world forecast accuracy.

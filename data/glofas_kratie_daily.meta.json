@@ -1,0 +1,12 @@
+{
+  "latitude": 12.525002,
+  "longitude": 105.92502,
+  "station_id": "glofas_v4_cell_12.525N_105.925E",
+  "unit": "m3/s",
+  "source": "GloFAS v4 consolidated via Open-Meteo",
+  "kind": "simulation",
+  "retrieved_at_utc": "2026-10-31T11:33:42+00:00",
+  "provenance": "https://flood-api.open-meteo.com/v1/flood?latitude=12.525&longitude=105.925&daily=river_discharge&start_date=1984-01-01&end_date=2025-12-31&models=consolidated_v4 | payload sha256[:12]=72939b611f8a | simulated, not a gauge",
+  "attribution": "Contains modified Copernicus Emergency Management Service information 2026 (GloFAS v4), retrieved via Open-Meteo.com (CC BY 4.0).",
+  "model_parameter": "consolidated_v4"
+}

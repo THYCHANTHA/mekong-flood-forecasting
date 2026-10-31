@@ -1,0 +1,27 @@
+{
+  "station_id": "glofas_v4_cell_12.525N_105.925E",
+  "kind": "simulation",
+  "source": "GloFAS v4 consolidated via Open-Meteo",
+  "unit": "m3/s",
+  "start": "1997-01-01",
+  "end": "2025-05-31",
+  "rows": 10378,
+  "duplicate_timestamps": 0,
+  "missing_daily_timestamps": 0,
+  "missing_values": 0,
+  "negative_values": 0,
+  "min": 18.68,
+  "median": 5901.01,
+  "max": 95498.27,
+  "continuous_daily": true,
+  "model_parameter": "consolidated_v4",
+  "requested_cell": {
+    "latitude": 12.525,
+    "longitude": 105.925,
+    "station_id": "glofas_v4_cell_12.525N_105.925E"
+  },
+  "retrieved_at_utc": "2026-10-31T11:33:42+00:00",
+  "served_from_cache": false,
+  "attribution": "Contains modified Copernicus Emergency Management Service information 2026 (GloFAS v4), retrieved via Open-Meteo.com (CC BY 4.0).",
+  "note": "GloFAS discharge is model-simulated (reanalysis), not a gauge measurement."
+}
